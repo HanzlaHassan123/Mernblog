@@ -1,0 +1,63 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.5)), url("https://cdn.pixabay.com/photo/2018/04/13/16/43/notepad-3316997_1280.jpg");
+    background-size: cover;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginBtn{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    top: 70px;
+    position: absolute;
+    right: 50px;
+}
+ .labelItem{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.registerInput{
+    height: 35px;
+    width: 250px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 20px;
+}
+.registerButton{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+.loginBtn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+.registerTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+}

@@ -1,0 +1,19 @@
+.Header{
+    margin-top: 20px;
+   
+}
+.headerTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(104, 52, 202);
+}
+
+.headerImg{
+ margin-top: 20px;
+ width: 100%;
+ height: 450px;
+ object-fit:fill;
+
+}

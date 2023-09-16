@@ -1,0 +1,52 @@
+.singlePost{
+    width: 385px;
+   margin: 20px 25px 40px 100px ;
+   padding: 5px;
+
+}
+.postImg{
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postCats{
+    color: rgb(180, 140, 88);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.postCat{
+    margin-right: 10px;
+   
+}
+.postTitle{
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.postDesc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient:vertical;
+    text-align: center;
+    color: rgb(120, 106, 106);
+   
+}
+
+.postDate{
+    margin-top: 12px;
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+}

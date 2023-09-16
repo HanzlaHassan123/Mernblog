@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 3;
+    background-color: rgb(152, 164, 105);
+    border-radius: 12px;
+    padding: 20px;
+    height: fit-content;
+}
+.sidebarImg{
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.sideBarItems{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+   
+}
+.sidebarIcon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.sideBarTitle{
+    font-size: larger;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(104, 52, 202);
+   margin-top: 12px;
+   border-top: 1px solid rgb(151, 148, 154);
+   border-bottom: 1px solid rgb(181, 173, 162)
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}

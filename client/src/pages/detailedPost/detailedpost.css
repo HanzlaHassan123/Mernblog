@@ -1,0 +1,60 @@
+.detailedPost{
+    flex: 8;
+}
+.detailedPostWrapper{
+padding: 10px;
+
+margin-top: 10px;
+}
+.depPostImg{
+    width: 100%;
+    border-radius: 12px;
+
+
+}
+.postTitle{
+   text-align: center;
+   margin: 10px;
+ 
+}
+.detPostEdit{
+    float: right;
+    
+    
+}
+
+.detPostInfo{
+    text-align: center;
+  
+}
+
+
+.detPostDate{
+    float: right;
+
+}
+
+.postDesc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient:vertical;
+    text-align: center;
+    color: rgb(120, 106, 106);
+   
+}
+.postDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.detPostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
